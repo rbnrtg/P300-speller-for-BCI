@@ -27,11 +27,11 @@ python ventanaRegion.py
 
 ## Files
 
-- ventanaRC.py
+- **ventanaRC.py**:
 Code that executes a P300 speller application by rows and columns. When accessing, the execution mode must be selected: to train the model or for real-time evaluation if there is a model already trained.
 
-- ventanaRegion.py
+- **ventanaRegion.py**: 
 Code that executes a P300 speller application by regions. When accessing, the execution mode must be selected: to train the model or for real-time evaluation if there is a model already trained.
 
-- train_signal.ipynb
+- **train_signal.ipynb**: 
 Jupyter Notebook where we can indicate which datasets we want to use to train the model and runs the model preprocessing and training phase. Once the model is trained, the trained classifier and the standardization object are imported through the Python pickle library to be used in the execution of the real-time evaluation of the P300 speller.
